@@ -1,0 +1,14 @@
+CRITICAL - 2022-04-07 01:15:40 --> Attempt to read property "password" on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Program File...', 81)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->create()
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:26:49 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Login/create')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Login/create')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

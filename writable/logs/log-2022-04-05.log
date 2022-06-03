@@ -1,0 +1,45 @@
+ERROR - 2022-04-05 02:42:54 --> Duplicate entry 'yahya@gmail.com' for key 'email'
+CRITICAL - 2022-04-05 02:42:54 --> Duplicate entry 'yahya@gmail.com' for key 'email'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(32): CodeIgniter\Model->insert(Object(App\Entities\Practitioner))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->PracCreate()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-05 02:45:56 --> Duplicate entry 'lekovah@mailinator.com' for key 'email'
+CRITICAL - 2022-04-05 02:45:56 --> Duplicate entry 'lekovah@mailinator.com' for key 'email'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(32): CodeIgniter\Model->insert(Object(App\Entities\Practitioner))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->PracCreate()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-05 09:37:15 --> Duplicate entry 'vufesym@mailinator.com' for key 'email'
+CRITICAL - 2022-04-05 09:37:15 --> Duplicate entry 'vufesym@mailinator.com' for key 'email'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pa...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pa...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pa...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pa...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(56): CodeIgniter\Model->insert(Object(App\Entities\Patient))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->PatCreate()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,73 @@
+CRITICAL - 2022-04-10 01:41:01 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(52): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->Praccreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 01:43:24 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(39): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->PracCreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 01:57:53 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(91): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->Patcreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 02:01:02 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(52): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->Praccreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 02:07:51 --> Invalid file: prac_dashboard.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prac_dashboard....')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('prac_dashboard', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Dashboard.php(9): view('prac_dashboard')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Dashboard->prac()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-10 02:19:42 --> Unknown column 'fname' in 'field list'
+CRITICAL - 2022-04-10 02:50:31 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(52): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->Praccreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 02:53:00 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(52): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->Praccreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 02:53:20 --> Invalid file: login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Login.php(52): view('login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Login->Praccreate()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

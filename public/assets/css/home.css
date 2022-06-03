@@ -1,0 +1,144 @@
+/* BODY STYLING
+body{
+    background-color: #afafaf;
+    background-size: cover;
+}
+ */
+/*VISION AND MISSION STYLING*/
+#vision_mission{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+}
+#vision_mission .vision{
+    margin:.8em .2em;
+    width:calc(100% - .2em);
+    box-sizing:border-box;
+    box-shadow:0 19px 38px rgba(1, 22, 35, 0.3), 0 15px 12px rgba(1, 12, 29, 0.22);
+    background-color:rgba(9, 122, 137, 0.567);
+}
+#vision_mission .mission{
+    margin:.8em .2em;
+    width:calc(100% - .2em);
+    box-sizing:border-box;
+    box-shadow:0 19px 38px rgba(1, 22, 35, 0.3), 0 15px 12px rgba(1, 12, 29, 0.22);
+    background-color:rgba(9, 122, 137, 0.567);
+}
+.rw{
+    align-items: center;
+}
+.rw:after {
+    content: "";
+    display: table;
+}
+.cl img{
+    height: 700px;
+}
+.cl h3{
+    margin:1em auto;
+    text-align: center;
+}
+.cl p{
+    margin:1em auto;
+    text-align: center;
+    font-size: 23px;
+}
+
+
+/* OUR PRACTITIONERS PAGE STYLING*/
+
+#container_profile{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+ }
+ #container_profile .box1{
+    margin:.8em .5em;
+    width:calc(20% - .2em);
+    height:fit-content;
+    box-sizing:border-box;
+    box-shadow:0 19px 38px rgba(2,53,10,0.3), 0 15px 12px rgba(0,0,0,0.22);
+    background-color:rgba(187, 178, 16, 0.3) ;
+}
+
+/* FOOTER STYLING */
+
+a, a:hover {
+    text-decoration: none !important; }
+
+/* .content {
+  height: 70vh; } */
+
+.footer-48201 {
+  padding: 7rem 0;
+  background-color: rgb(43, 47, 51);
+  color: #777;
+  width: 100%;
+ }
+/* .footer-48201 .footer-site-logo {
+    font-size: 1.5rem;
+    color: #fff; } */
+.footer-48201 .nav-links li 
+{
+    margin-bottom: 10px; 
+}
+
+.footer-48201 .nav-links li a 
+{
+      color: gray; 
+}
+.footer-48201 .nav-links li a:hover 
+{
+        color: #fff; 
+    }
+.footer-48201 .btn.btn-tertiary 
+{
+    background-color: #afafaf;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px; 
+}
+.footer-48201 .social li 
+{
+    display: inline-block; 
+}
+.footer-48201 .social li a 
+{
+      color: gray;
+      padding: 7px; 
+}
+.footer-48201 .social li a:hover 
+{
+        color: #fff; 
+}
+.footer-48201 .copyright 
+{
+    border-top: 1px solid #404040; 
+}
+
+.logofoot
+{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+
+.slog{
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-size-adjust: 50px;
+    padding: 0%;
+    }
+.card-footer{
+    text-align: center;
+    background-color: #777;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    
+}

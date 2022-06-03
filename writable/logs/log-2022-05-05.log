@@ -1,0 +1,124 @@
+CRITICAL - 2022-05-05 04:24:50 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Practitoner\prac_dashboard.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 348)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Practitoner/pra...', Array, true)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Dashboard.php(9): view('Practitoner/pra...')
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Dashboard->prac()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 04:25:35 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Practitoner\prac_dashboard.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 348)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Practitoner/pra...', Array, true)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Dashboard.php(9): view('Practitoner/pra...')
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Dashboard->prac()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 05:57:32 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Practitoner\prac_dashboard.php(537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 537)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Practitoner/pra...', Array, true)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Dashboard.php(9): view('Practitoner/pra...')
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Dashboard->prac()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 13:20:35 --> Duplicate entry 'pat2@pat.com' for key 'email'
+CRITICAL - 2022-05-05 13:20:35 --> Duplicate entry 'pat2@pat.com' for key 'email'
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(59): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-05 13:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-05 13:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM U...', 0)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM U...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM U...')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Patient\Appoint_now.php(62): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Appointment.php(48): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-05 13:42:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-05 13:42:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM U...', 0)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM U...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM U...')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Patient\Appoint_now.php(62): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Appointment.php(49): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-05 13:46:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-05 13:46:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM U...', 0)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM U...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM U...')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM U...')
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Patient\Appoint_now.php(62): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Appointment.php(49): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-05 23:17:46 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2022-05-05 23:17:46 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(59): CodeIgniter\Model->insert(Object(App\Entities\User))
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-05 23:42:00 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2022-05-05 23:42:00 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Login->create()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 23:55:02 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond

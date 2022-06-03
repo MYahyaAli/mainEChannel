@@ -1,0 +1,26 @@
+ERROR - 2022-06-01 08:17:42 --> Duplicate entry '200015447865' for key 'nic'
+CRITICAL - 2022-06-01 08:17:42 --> Duplicate entry '200015447865' for key 'nic'
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(59): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-01 10:03:36 --> Undefined variable $query
+#0 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Patient\Appoint_now.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 65)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Appointment.php(49): view('Patient/Appoint...')
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

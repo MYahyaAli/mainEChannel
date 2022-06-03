@@ -1,0 +1,458 @@
+ERROR - 2022-04-14 00:01:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(255) ...' at line 5
+ERROR - 2022-04-14 00:02:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(100) ...' at line 5
+ERROR - 2022-04-14 00:03:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(100) ...' at line 5
+ERROR - 2022-04-14 00:07:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(100) ...' at line 5
+ERROR - 2022-04-14 00:31:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(100) ...' at line 5
+ERROR - 2022-04-14 00:33:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(100) ...' at line 5
+ERROR - 2022-04-14 00:33:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`patientnum` INT(100) NOT NULL,
+	`fee` INT(10) NOT NULL,
+	CO...' at line 5
+ERROR - 2022-04-14 00:35:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	CONSTRAINT `pk_PractitionerSchedule` PRIMARY KEY(`id`)
+) DEF...' at line 5
+ERROR - 2022-04-14 01:00:47 --> Unknown table 'channeldocmain.practitionerschedule'
+CRITICAL - 2022-04-14 01:47:50 --> Invalid file: prac_dashboard.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prac_dashboard....')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('prac_dashboard', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(33): view('prac_dashboard')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-14 05:26:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-14 05:26:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM P...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM P...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM P...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM P...')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Patient\Appoint_now.php(59): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(37): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-14 05:31:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-04-14 05:31:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM P...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM P...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM P...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM P...')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Patient\Appoint_now.php(59): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(37): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-14 06:01:12 --> Duplicate entry 'D0001' for key 'practitionerid'
+CRITICAL - 2022-04-14 06:01:12 --> Duplicate entry 'D0001' for key 'practitionerid'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(19): CodeIgniter\Model->insert(Object(App\Entities\PractitionerSchedule))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-14 06:06:55 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Patient\Appoint_now.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 100)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(37): view('Patient/Appoint...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 06:07:13 --> Unknown column 'DoctorID' in 'where clause'
+CRITICAL - 2022-04-14 06:07:13 --> Unknown column 'DoctorID' in 'where clause'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM P...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM P...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM P...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM P...')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Patient\Appoint_now.php(100): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(37): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-14 06:09:07 --> Unknown column 'DoctorID' in 'where clause'
+CRITICAL - 2022-04-14 06:09:07 --> Unknown column 'DoctorID' in 'where clause'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM P...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM P...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM P...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM P...')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Patient\Appoint_now.php(100): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Appoint...', Array, true)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(37): view('Patient/Appoint...')
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->appoint()
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-14 06:21:29 --> Invalid file: Appointment/appoint.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Appointment/app...')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Appointment/app...', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(46): view('Appointment/app...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->book()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 06:25:52 --> Invalid file: Practitioner/prac_dashboard.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Practitioner/pr...')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Practitioner/pr...', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(33): view('Practitioner/pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 06:26:08 --> Invalid file: prac_dashboard.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prac_dashboard....')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('prac_dashboard', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Appointment.php(33): view('prac_dashboard')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Appointment->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 06:41:41 --> Unclosed '{' on line 60
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(9): view('Our_Practitione...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 06:41:53 --> Undefined property: stdClass::$hospital
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 66)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(9): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 07:01:15 --> Unknown table 'channeldocmain.practitionerschedule'
+ERROR - 2022-04-14 07:01:39 --> Unknown table 'channeldocmain.practitionerschedule'
+CRITICAL - 2022-04-14 07:39:27 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 08:36:42 --> There is no data to insert.
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(46): CodeIgniter\Model->insert(Array)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 08:37:12 --> There is no data to insert.
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(46): CodeIgniter\BaseModel->save(Array)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 08:40:15 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('data', 'insert')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert('data', false)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(658): CodeIgniter\Model->insert('data', false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(46): CodeIgniter\BaseModel->save('data')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 08:44:37 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('data', 'insert')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert('data', false)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(658): CodeIgniter\Model->insert('data', false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(47): CodeIgniter\BaseModel->save('data')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 08:47:18 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, null given, called in D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php on line 52
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(52): CodeIgniter\Model->insert(Object(App\Entities\User), NULL)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 09:13:07 --> There is no data to insert.
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(53): CodeIgniter\BaseModel->save(Array)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 09:15:19 --> There is no data to insert.
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(53): CodeIgniter\BaseModel->save(Array)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 10:30:16 --> Duplicate entry '' for key 'practitionerid'
+CRITICAL - 2022-04-14 10:30:16 --> Duplicate entry '' for key 'practitionerid'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(52): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-14 11:00:41 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 11:00:58 --> Call to a member function hasMoved() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 11:16:18 --> Call to a member function hasMoved() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 11:44:10 --> Invalid file: PractitonerDetails.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PractitonerDeta...')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('PractitonerDeta...', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\PractitionerDetails.php(35): view('PractitonerDeta...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 11:46:07 --> Invalid file: PractitionerDetails.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PractitionerDet...')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('PractitionerDet...', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\PractitionerDetails.php(35): view('PractitionerDet...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-14 12:11:22 --> Duplicate entry 'D0003' for key 'practitionerid'
+CRITICAL - 2022-04-14 12:11:22 --> Duplicate entry 'D0003' for key 'practitionerid'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\PractitionerDetails.php(26): CodeIgniter\Model->insert(Object(App\Entities\PractitionerProfile))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-14 12:12:06 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 59)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:13:15 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 59)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:13:33 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 59)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:14:44 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 59)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 12:14:47 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 59)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 12:16:29 --> Table 'channeldoc1.pracctitionerprofile' doesn't exist
+CRITICAL - 2022-04-14 12:16:29 --> Table 'channeldoc1.pracctitionerprofile' doesn't exist
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM P...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM P...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM P...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM P...')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-14 12:16:44 --> Undefined variable $practitionerid
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 59)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 12:17:16 --> Table 'channeldoc1.pracctitionerprofile' doesn't exist
+CRITICAL - 2022-04-14 12:17:16 --> Table 'channeldoc1.pracctitionerprofile' doesn't exist
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM P...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM P...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM P...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM P...')
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(59): CodeIgniter\Model->__call('query', Array)
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-14 12:20:50 --> Undefined property: stdClass::$specialization
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 71)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(19): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 19:25:01 --> Undefined variable $firstname
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 48)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Home', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Home.php(14): view('Home')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Home->home()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 19:25:32 --> Undefined property: stdClass::$fullname
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 64)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(20): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 19:48:20 --> Duplicate entry 'practitioner11@gmail.com' for key 'email'
+CRITICAL - 2022-04-14 19:48:20 --> Duplicate entry 'practitioner11@gmail.com' for key 'email'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

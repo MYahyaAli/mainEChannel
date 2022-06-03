@@ -1,0 +1,181 @@
+CRITICAL - 2022-04-13 11:16:01 --> Undefined variable $firstname
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 48)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Home', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Home.php(14): view('Home')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Home->home()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 14:06:54 --> Undefined variable $firstname
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Our_Practitioners.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 38)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Our_Practitione...', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Our_Practitioners.php(9): view('Our_Practitione...')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Our_Practitioners->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Our_Practitioners))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 22:10:39 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-13 23:16:16 --> Duplicate entry '0005' for key 'practitionerid'
+CRITICAL - 2022-04-13 23:16:16 --> Duplicate entry '0005' for key 'practitionerid'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\PractitionerDetails.php(18): CodeIgniter\Model->insert(Object(App\Entities\PractitionerProfile))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-13 23:17:21 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-13 23:19:03 --> Duplicate entry 'D0005' for key 'practitionerid'
+CRITICAL - 2022-04-13 23:19:03 --> Duplicate entry 'D0005' for key 'practitionerid'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\PractitionerDetails.php(18): CodeIgniter\Model->insert(Object(App\Entities\PractitionerProfile))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-13 23:19:18 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 23:21:46 --> Call to a member function hasMoved() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 23:22:31 --> Call to a member function move() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-13 23:29:53 --> Duplicate entry 'D0002' for key 'practitionerid'
+CRITICAL - 2022-04-13 23:29:53 --> Duplicate entry 'D0002' for key 'practitionerid'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Pr...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\PractitionerDetails.php(18): CodeIgniter\Model->insert(Object(App\Entities\PractitionerProfile))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-13 23:30:01 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 23:34:17 --> Invalid file: Login/login.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/login.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Login/login', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(32): view('Login/login')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-13 23:35:14 --> Duplicate entry 'practitioner2@gmail.com' for key 'email'
+CRITICAL - 2022-04-13 23:35:14 --> Duplicate entry 'practitioner2@gmail.com' for key 'email'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(30): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-13 23:35:54 --> Duplicate entry '202012002365' for key 'nic'
+CRITICAL - 2022-04-13 23:35:54 --> Duplicate entry '202012002365' for key 'nic'
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(30): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-13 23:36:40 --> Invalid file: Login/index.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/index.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Login/index', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(32): view('Login/index')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 23:37:26 --> Invalid file: Login/index.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/index.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Login/index', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(32): view('Login/index')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 23:39:14 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-13 23:47:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`time` VARCHAR(255) NOT NULL,
+	`patientnum` INT(255) NOT NUL...' at line 5
+ERROR - 2022-04-13 23:49:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`time` VARCHAR(255) NOT NULL,
+	`patientnum` INT(255) NOT NUL...' at line 5
+ERROR - 2022-04-13 23:53:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(255) ...' at line 5
+ERROR - 2022-04-13 23:53:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(255) ...' at line 5
+ERROR - 2022-04-13 23:59:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`appointtime` VARCHAR(255) NOT NULL,
+	`patientnum` INT(255) ...' at line 5

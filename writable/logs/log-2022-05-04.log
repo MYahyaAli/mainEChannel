@@ -1,0 +1,81 @@
+ERROR - 2022-05-04 06:57:46 --> Unknown column 'practitionerid' in 'field list'
+CRITICAL - 2022-05-04 06:57:46 --> Unknown column 'practitionerid' in 'field list'
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#9 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-04 07:10:23 --> finfo_file(D:\Program Files\xampp\tmp\php434.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(D:\\P...', 'D:\\Program File...', 109)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(109): finfo_file(Object(finfo), 'D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(35): CodeIgniter\Files\File->getRandomName()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-04 07:23:16 --> finfo_file(D:\Program Files\xampp\tmp\phpA893.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(D:\\P...', 'D:\\Program File...', 109)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(109): finfo_file(Object(finfo), 'D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(35): CodeIgniter\Files\File->getRandomName()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-04 07:27:28 --> finfo_file(D:\Program Files\xampp\tmp\php8182.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(D:\\P...', 'D:\\Program File...', 109)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(109): finfo_file(Object(finfo), 'D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(35): CodeIgniter\Files\File->getRandomName()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-04 13:38:32 --> finfo_file(D:\Program Files\xampp\tmp\php3A98.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(D:\\P...', 'D:\\Program File...', 109)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(109): finfo_file(Object(finfo), 'D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Register.php(45): CodeIgniter\Files\File->getRandomName()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-04 14:10:41 --> Invalid file: About.php
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('About.php')
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('About', Array, true)
+#2 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Home.php(24): view('About')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Home->about()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 14:10:59 --> Invalid file: Contact.php
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Contact.php')
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Contact', Array, true)
+#2 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Home.php(19): view('Contact')
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Home->contact()
+#4 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

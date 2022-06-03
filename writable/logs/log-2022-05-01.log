@@ -1,0 +1,18 @@
+CRITICAL - 2022-05-01 13:35:36 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 13:52:33 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 13:53:56 --> Call to a member function isValid() on null
+#0 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\PractitionerDetails->create()
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PractitionerDetails))
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,36 @@
+ERROR - 2022-04-03 02:38:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR NOT NULL,
+	`new` VARCHAR(60) NOT NULL,
+	`approv...' at line 11
+ERROR - 2022-04-03 07:25:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR NOT NULL,
+	`new` VARCHAR(60) NOT NULL,
+	`approv...' at line 11
+ERROR - 2022-04-03 07:28:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(60) NOT NULL,
+	`new` VARCHAR(60) NOT NULL,
+	`ap...' at line 11
+ERROR - 2022-04-03 07:29:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(60) NOT NULL,
+	`new` VARCHAR NOT NULL(60) NOT N...' at line 11
+ERROR - 2022-04-03 07:29:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(60) NOT NULL,
+	created_at datetime default curr...' at line 11
+ERROR - 2022-04-03 07:31:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(60) NOT NULL,
+	created_at datetime default curr...' at line 11
+ERROR - 2022-04-03 08:00:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(60) NOT NULL,
+	created_at datetime default curr...' at line 11
+ERROR - 2022-04-03 08:01:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_practitioner` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER...' at line 12
+ERROR - 2022-04-03 08:02:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_practitioner` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER...' at line 12
+ERROR - 2022-04-03 08:03:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_practitioner` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER...' at line 12
+ERROR - 2022-04-03 08:07:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_Practitioner` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER...' at line 12

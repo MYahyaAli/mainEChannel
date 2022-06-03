@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(../images/12.jpg); */
+    /* width: 100%; */
+    /* overflow: hidden; */
+  }
+
+.bgimage{
+    width: 100%;
+    max-height: 90vh;
+    opacity: 0.5;
+    position: absolute;
+  }
+  
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+p{
+    text-align: center;
+    color: #16A085;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+  /* style the container */
+.container {
+    position: relative;
+    padding: 20px 0 30px 0;
+} 
+  
+  /* style inputs and link buttons */
+input .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+  }
+  
+input:hover, .btn:hover {
+    opacity: 1;
+  }
+  
+  
+  
+  /* style the submit button */
+input[type=submit] {
+    background-color: #525b61;
+    color: white;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #293441;
+  }
+  
+  /* Two-column layout */
+.col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  
+.pic{
+      height: 250px;
+      width: 400px;
+      position:relative;
+      left: 10%;
+  }
+  
+
+  
+  
+  /* hide some text on medium and large screens */
+.hide-md-lg {
+    display: none;
+  }
+  
+  /* bottom container */
+.bottom-container {
+    text-align: center;
+    background-color: rgb(11, 83, 69);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+
+@media screen and (max-width: 650px) {
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .vl {
+      display: none;
+    }
+
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+}

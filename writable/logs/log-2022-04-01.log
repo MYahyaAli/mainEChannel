@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-01 00:39:07 --> Undefined variable $posts
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\app\Views\Patient\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 82)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Patient/Home', Array, true)
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Home.php(9): view('Patient/Home')
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
