@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-03 02:08:23 --> Undefined variable $adsModel
+#0 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Home.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 462)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Home', Array, true)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Login.php(44): view('Home')
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Login->create()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 02:08:34 --> Undefined variable $adsModel
+#0 D:\Program Files\xampp\htdocs\mainEChannel\app\Views\Home.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 462)
+#1 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(210): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\mainEChannel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\xampp\htdocs\mainEChannel\system\Common.php(1089): CodeIgniter\View\View->render('Home', Array, true)
+#4 D:\Program Files\xampp\htdocs\mainEChannel\app\Controllers\Login.php(44): view('Home')
+#5 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(832): App\Controllers\Login->create()
+#6 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Program Files\xampp\htdocs\mainEChannel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\mainEChannel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

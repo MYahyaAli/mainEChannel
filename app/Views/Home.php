@@ -371,6 +371,118 @@
                     </div>
                 </div>
             </div>
+                    <div class="card-header border border-black">
+                        <h4>Availabel Practitioners</h4>
+                    </div>
+
+
+                    <!-- Start of ads view -->
+                    <div class="card-body">
+                        <table class="table table-bordered">
+
+                            <thead>
+                                <tr>
+                                    <th>Practitioner Name</th>
+                                    <th>Specialization</th>
+                                    <th>Location</th>
+                                    <th>View Practitioner</th>
+                                    
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <?php
+
+                                    session();
+                                    
+                                    $userModel = new \App\Models\userModel;
+
+                                    // Checks if the search box has a value set in it or not, and then searches the data and displays it
+                                    if(isset($_GET['search'])) {
+
+                                        // Gets the search value from the search box and runs the query
+                                        $searchValue = $_GET['search'];
+                                        $query = $userModel -> query("SELECT * FROM user WHERE approved = 'Yes' AND CONCAT(firstname,specification, address) LIKE '%$searchValue%' ");
+
+                                        foreach ($query -> getResult() as $row) {
+                                ?>
+                                        <tr>
+                                            
+                                            <td><?php echo $row -> firstname ?></td>
+                                            <td><?php echo $row -> specification ?></td>
+                                            <td><?php echo $row -> address ?></td>
+
+                                            <td>
+                                                <a href="<?php echo base_url('Patient/Appoint_now/'.$row -> id)?>" class="btn btn-outline-success float-end btn-sm">View</a>
+                                            </td>
+                                            
+                                        </tr>
+
+                                    <?php
+                                        }
+                                        
+
+                                      // Checks the filter if either category, location, or experience fields are set, and runs the query  
+                                    } else if (isset($_GET['specification']) || isset($_GET['firstname']) || isset($_GET['address'])) {
+
+                                        // gets the info from the fields
+                                        
+                                        $specification = $_GET['specification'] ?? null; // nullable
+                                        $firstname = $_GET['firstname'];
+                                        $address = $_GET['address'];
+
+                                        if( $address !== null || $firstname !== null || $specification !== null) {
+                                           
+                                            // sets the location
+                                            $query = $userModel -> query("SELECT * FROM user WHERE approved = 'Yes' AND address = '$address' OR firstname = '$firstname' OR specification = '$specification'");
+                                        }
+
+                                        foreach ($query -> getResult() as $row) {
+                                ?>
+                                        <tr>
+                                            
+                                            <td><?php echo $row -> firstname ?></td>
+                                            <td><?php echo $row -> specification ?></td>
+                                            <td><?php echo $row -> address ?></td>
+
+                                            <td>
+                                                <a href="<?php echo base_url('Patient/Appoint_now/'.$row -> id)?>" class="btn btn-outline-success float-end btn-sm"> View </a>
+                                            </td>
+                                            
+                                        </tr>
+
+                                    <?php
+                                        }
+                                        
+
+                                        // Displays everything from the database by DEFAULT, if no search value is set
+                                    }  else {
+                                          
+                                        $query = $userModel -> query("SELECT * FROM user WHERE approved = 'Yes' ");
+    
+                                        foreach ($query -> getResult() as $row) {
+                                ?>
+                                        <tr>
+                                            
+                                            <td><?php echo $row -> firstname ?></td>
+                                            <td><?php echo $row -> specification ?></td>
+                                            <td><?php echo $row -> address ?></td>
+
+                                            <td>
+                                                <a href="<?php echo base_url('Patient/Appoint_now/'.$row -> id)?>" class="btn btn-outline-success float-end btn-sm">View</a>
+                                            </td>
+                                            
+                                        </tr>
+
+                                    <?php
+                                        }
+                                    }
+                                ?>
+
+                            </tbody>
+                        </table>
+                    </div>
         </section>
         <!--Covid Updates-->
         <section>
